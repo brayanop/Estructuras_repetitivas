@@ -1,1 +1,17 @@
-# Estructura__selectivas
+ejerccio examen
+#include<bits/stdc++.h>
+using namespace  std;
+int main() {
+    int altura;
+    cout<<"Ingrese la altura:"<< endl;
+    cin >> altura;
+    cout << "El triangulo invertido es:"<< endl;
+    for(int i=1;i<=altura;i++){
+    	for (int j=altura;j>=i;j--){
+    		cout<<"*";
+		}
+		cout<< endl;
+	}
+	
+    return 0;
+	}
